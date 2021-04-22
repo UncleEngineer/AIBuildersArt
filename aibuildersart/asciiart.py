@@ -37,3 +37,52 @@ class UncleEngineer:
         
     def __str__(self):
         return self.name
+
+class GuitarDev:
+    '''
+    test = UncleEngineer()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'GuitarDev'
+
+    def art(self):
+        asciiart = '''
+                                                                   . ,,                 
+                                                         ,(&&/   %/             
+                                                       /##%&.    &@%            
+                                                       ,%%     *@&%.            
+                                                        &,    ,@&(              
+                                                       *&.#&&#% ,.              
+                                                      %* .&,                    
+                                                    *&  .%                      
+                                                   &(. #*                       
+                                                 *&/ .&.                        
+                                               .&#/ *#                          
+                                              /##/.%*                           
+                                             &,%*.&.                            
+                                           /(.#*/#                              
+                               ,#@&&&@#, .@..%*%.                               
+                             &,         (( .%/%                                 
+                            %.        .&. ,#%/       I'm Guitar Dev.                      
+                           ,#        #(  .%&.                                   
+                          .&    *&#//#&(,%%&,                                   
+                       ./&,   #(&*    ,&*%   /&%/,                              
+                 ,%&,        ,(%        %/(      ,%                             
+              *&.             &#*      ,&(,    *&.                              
+            *%                 ##(&%%%#(%.  .&*                                 
+           (/                              .%                                   
+          .%         .&/                   .%                                   
+          ,#         (* .%#.                %.                                  
+           &.          .&   ,%%*            (,                                  
+           ,#            ,%(,.*, .##        %.                                  
+            .&.                 ..         ,#                                   
+              ,&.                         ,%                                    
+                 ##.                    .%*                                     
+                    .%&,              (&.                                       
+                          .*(#%&%#(,                                            
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
