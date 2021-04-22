@@ -37,3 +37,31 @@ class UncleEngineer:
         
     def __str__(self):
         return self.name
+    
+class Chxrifin:
+    '''
+    test = UncleEngineer()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'Chxrifin'
+
+    def art(self):
+        asciiart = '''
+        
+   _._     _,-'""`-._
+(,-.`._,'(       |\`-/|
+    `-.-' \ )-`( , o o)
+          `-    \`_`"'-
+  |\__/,|   (`\
+   |o o  |__ _)
+ _.( T   )  `  /
+((_ `^--' /_<  \
+`` `-'(((/  (((/
+
+                 
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
