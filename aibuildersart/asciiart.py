@@ -56,7 +56,7 @@ class DekchaiTortao:
  /\.-`( '.' )
 / /    \_-_/_    Dekchai
 \ `-.-"`'V'//-.    Tortao
- `.__,   |// , \     Krubpom
+ `.__,   |// , \     
      |Ll //Ll|\ \\
      |__//   | \_\\
     /---|[]==| / /
