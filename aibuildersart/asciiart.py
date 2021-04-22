@@ -37,3 +37,31 @@ class UncleEngineer:
         
     def __str__(self):
         return self.name
+
+
+
+class onefineday888:
+    '''
+    test = onefineday888()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'onefineday888'
+
+    def art(self):
+        asciiart = '''
+        ---------------- 
+
+                / \__
+              (    @\___
+              /         O
+             /   (_____/
+            /_____/   U
+      
+        ----------------       
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
+
