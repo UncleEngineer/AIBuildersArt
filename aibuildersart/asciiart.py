@@ -44,7 +44,7 @@ class Suparatna:
     test.art()
     '''
     def __init__(self):
-        self.name = 'Uncle Engineer'
+        self.name = 'Suparat'
 
     def art(self):
         asciiart = '''
