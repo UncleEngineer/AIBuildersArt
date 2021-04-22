@@ -7,7 +7,11 @@
 เปิด CMD / Terminal
 
 ```python
+on terminal / cmd
 pip install aibuildersart
+
+on Colab
+!pip install git+https://github.com/UncleEngineer/AIBuildersArt.git
 ```
 
 ### วิธีใช้งาน
