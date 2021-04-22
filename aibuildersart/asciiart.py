@@ -92,6 +92,3 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
         
     def __str__(self):
         return self.name
-
-test = AcetaJee()
-test.art()
