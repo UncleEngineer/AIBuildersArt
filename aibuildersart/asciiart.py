@@ -37,10 +37,8 @@ class UncleEngineer:
         
     def __str__(self):
         return self.name
-
-
-
-class onefineday888:
+      
+      class onefineday888:
     '''
     test = onefineday888()
     test.art()
@@ -58,10 +56,9 @@ class onefineday888:
              /   (_____/
             /_____/   U
       
-        ----------------       
+        ----------------    
         '''
         print(asciiart)
         
     def __str__(self):
         return self.name
-
