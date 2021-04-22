@@ -75,5 +75,5 @@ _)      \.___.,|     .'
         return self.name
 
 
-test = MeenAnusak()
+test = UncleEngineer()
 test.art()
