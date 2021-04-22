@@ -38,7 +38,7 @@ class UncleEngineer:
     def __str__(self):
         return self.name
     
-    class Chxrifin:
+class Chxrifin:
     '''
     test = UncleEngineer()
     test.art()
