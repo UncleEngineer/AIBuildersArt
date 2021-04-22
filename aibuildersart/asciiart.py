@@ -38,6 +38,34 @@ class UncleEngineer:
     def __str__(self):
         return self.name
 
+class Ridwan0019:
+    '''
+    test = Ridwan0019()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'Ridwan0019'
+
+    def art(self):
+        asciiart = '''
+ ------------------------------------------------       
+        (\ 
+        \'\ 
+        \'\     __________  
+        / '|   ()_________)
+        \ '/    \ ~~~~~~~~ \
+         \       \ ~~~~~~   \
+        ==).      \__________\
+       (__)       ()__________)  Ridwan0019
+------------------------------------------------
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
+
+
+
 class GuitarDev:
     '''
     test = UncleEngineer()
