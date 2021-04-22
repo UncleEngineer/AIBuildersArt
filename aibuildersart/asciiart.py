@@ -34,14 +34,22 @@ class UncleEngineer:
       `-| '
         '''
         print(asciiart)
-   class Chxrifin:
-        def __init__(self):
+        
+    def __str__(self):
+        return self.name
+    
+    class Chxrifin:
+    '''
+    test = UncleEngineer()
+    test.art()
+    '''
+    def __init__(self):
         self.name = 'Chxrifin'
-        def art(self):
+
+    def art(self):
         asciiart = '''
-
-
-_._     _,-'""`-._
+        
+   _._     _,-'""`-._
 (,-.`._,'(       |\`-/|
     `-.-' \ )-`( , o o)
           `-    \`_`"'-
@@ -51,7 +59,9 @@ _._     _,-'""`-._
 ((_ `^--' /_<  \
 `` `-'(((/  (((/
 
+                 
         '''
         print(asciiart)
+        
     def __str__(self):
         return self.name
