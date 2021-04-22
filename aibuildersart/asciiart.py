@@ -3,6 +3,7 @@ class UncleEngineer:
     test = UncleEngineer()
     test.art()
     '''
+
     def __init__(self):
         self.name = 'Uncle Engineer'
 
@@ -34,15 +35,17 @@ class UncleEngineer:
       `-| '
         '''
         print(asciiart)
-        
+
     def __str__(self):
         return self.name
+
 
 class GuitarDev:
     '''
     test = UncleEngineer()
     test.art()
     '''
+
     def __init__(self):
         self.name = 'GuitarDev'
 
@@ -83,15 +86,17 @@ class GuitarDev:
                           .*(#%&%#(,                                            
         '''
         print(asciiart)
-        
+
     def __str__(self):
         return self.name
+
 
 class Batman:
     '''
     test = Batman()
     test.art()
     '''
+
     def __init__(self):
         self.name = 'Jman'
 
@@ -120,6 +125,49 @@ class Batman:
                    "`^^Y888888888888P^^'"
         '''
         print(asciiart)
-        
+
+    def __str__(self):
+        return self.name
+
+
+class Apple123:
+    '''
+    test = Apple123()
+    test.art()
+    '''
+
+    def __init__(self):
+        self.name = 'Apple123'
+
+    def art(self):
+        asciiart = '''
+                        .8 
+                      .888
+                    .8888'
+                   .8888'
+                   888'
+                   8'
+      .88888888888. .88888888888.
+   .8888888888888888888888888888888.
+ .8888888888888888888888888888888888.
+.&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+`%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+ `00000000000000000000000000000000000'
+  `000000000000000000000000000000000'
+   `0000000000000000000000000000000'
+     `###########################'
+       `#######################'
+         `#########''########'
+           `""""""'  `"""""'
+        '''
+        print(asciiart)
+
     def __str__(self):
         return self.name
