@@ -92,6 +92,9 @@ class Heart999:
 ……………………*
         '''
         print(asciiart)
+        
+    def __str__(self):
+        return self.name
 
 class House999:
     '''
@@ -103,8 +106,7 @@ class House999:
 
     def art(self):
         asciiart = '''
-    def __str__(self):
-        return self.name
+    
         
 ∵*.•´¸.•*´✶´♡
 ° ☆ ° ˛*˛☆_Π______˚☆
