@@ -8,6 +8,7 @@ class UncleEngineer:
 
     def art(self):
         asciiart = '''
+
                              Z             
                        Z                   
         .,.,        z           
@@ -32,6 +33,7 @@ class UncleEngineer:
   |     | | \|                             
    `-.  | |  |                             
       `-| '
+
         '''
         print(asciiart)
         
@@ -44,10 +46,11 @@ class ApichaiCoding:
     test.art()
     '''
     def __init__(self):
-        self.name = 'Uncle Engineer'
+        self.name = 'Apichai Thinthonglang'
 
     def art(self):
         asciiart = '''
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~        
             /|      __
            / |   ,-~ /
@@ -68,6 +71,7 @@ class ApichaiCoding:
      ]\      _\    /"\
     (" ~----( ~   Y.  )
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
         '''
         print(asciiart)
         
