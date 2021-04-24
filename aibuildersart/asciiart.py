@@ -38,6 +38,35 @@ class UncleEngineer:
     def __str__(self):
         return self.name
 
+
+
+class UncleEngineerbyWK:
+    '''
+    test = UncleEngineer()
+    test.art()
+    '''
+
+    def __init__(self):
+        self.name = 'Uncle Engineer by WK'
+
+    def art(self):
+        asciiart = '''                                                                                 
+                                 .(&@@@@#.                                                          
+                                 /(((((((/.           */*                                           
+       .(%&@@@&%*        /&@&*  ,#%@@@&#*     *#&@@@@&@%,  /%&@@@&#.     ,(%@@@&#/    .(%@@@@@@%    
+        ..    .&@@.      #&%@@/ ..    *&@%. ,&@&,  (/#@@(  ..    /@@/   %@&*   .#@@* .&@@%@#/.             @ 
+       .@@@@@/ (@@, ,&@&,  (@@/       .&@&, ,@@#/#.(#,@@%.       *@@#   .%@&*   ,@@%  .....,&@@.           by  
+       *@@@@(#&%@@,   (@@(.(@@*      %@@@&,  #@@@@@#..@@%.     *&@@@#   &@@,    ,@@%      #@@@@*            WEERAYUT
+        (@@@/ .@@@,    ,%@@@&/       #@@&*   /@@#    .@@%.     *&@@%.   %@@,    ,@@%      (@@@/              KRONGMALAI  
+        
+               ,#((                                                                                 
+                .%(                                                                              
+        '''
+        print(asciiart)
+
+    def __str__(self):
+        return self.name
+  
 class Ridwan0019:
     '''
     test = Ridwan0019()
@@ -67,10 +96,7 @@ class Ridwan0019:
 
 
 class GuitarDev:
-    '''
-    test = UncleEngineer()
-    test.art()
-    '''
+  
     def __init__(self):
         self.name = 'GuitarDev'
 
@@ -151,3 +177,4 @@ class Batman:
         
     def __str__(self):
         return self.name
+
