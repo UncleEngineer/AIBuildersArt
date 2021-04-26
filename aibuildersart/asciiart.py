@@ -216,5 +216,3 @@ class pnr10:
         
     def __str__(self):
         return self.name
-test = pnr10()
-test.art()
