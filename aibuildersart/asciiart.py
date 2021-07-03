@@ -151,3 +151,25 @@ class Batman:
         
     def __str__(self):
         return self.name
+
+class kongNeko:
+    '''
+    test = kongNeko()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'kongNeko Krup'
+
+    def art(self):
+        asciiart = '''
+ |\__/,|   (`\
+ |_ _  |.--.) )   kongNeko
+ ( T   )     /           Cat
+(((^_(((/(((_/
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
+
+
