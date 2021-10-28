@@ -227,3 +227,31 @@ class kongNeko:
 
     def __str__(self):
         return self.name
+
+
+class takatbprint:
+    '''
+    test = takatbprint()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'Tang'
+
+    def art(self):
+        asciiart = '''
+
+
+__________________|      |____________________________________________
+     ,--.    ,--.          ,--.   ,--.
+    |oo  | _  \  `.       | oo | |  oo|
+o  o|~~  |(_) /   ;       | ~~ | |  ~~|o  o  o  o  o  o  o  o  o  o  o
+    |/\/\|   '._,'        |/\/\| |/\/\|
+__________________        ____________________________________________
+                  |      |dwb                         
+                         
+                    
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
