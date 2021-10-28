@@ -227,3 +227,26 @@ class kongNeko:
 
     def __str__(self):
         return self.name
+
+
+class MCCHAKKRAPONG:
+    '''
+    test = MCCHAKKRAPONG()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'chakkrapong mc'
+
+    def art(self):
+        asciiart = '''
+-----------------------------------------------
+    a'!   _,,_ a'!   _,,_     a'!   _,,_
+  \\_/    \  \\_/    \      \\_/    \.-,
+   \, /-( /'-,\, /-( /'-,    \, /-( /
+   //\ //\\   //\ //\\       //\ //\\jrei
+-----------------------------------------------
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
