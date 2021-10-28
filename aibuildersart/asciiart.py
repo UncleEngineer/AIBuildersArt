@@ -227,3 +227,28 @@ class kongNeko:
 
     def __str__(self):
         return self.name
+
+class GoGo:
+    '''
+    test = GoGo()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'GoGo'
+
+    def art(self):
+        asciiart = '''
+----------------------
+   |\|\
+  ..    \       .
+o--     \\    / @)
+ v__///\\\\__/ @
+   {           }
+    {  } \\\{  }
+    <_|      <_|
+----------------------
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
