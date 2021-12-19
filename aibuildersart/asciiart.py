@@ -333,3 +333,22 @@ class Playboy:
         return self.name
 
  
+class KouVongthaya:
+    '''
+    kouVongthaya = KouVongthaya()
+    kouVongthaya.art()
+    '''
+
+    def __init__(self):
+        self.name = 'Vongthaya'
+
+    def art(self):
+        asciiart = '''
+            o'')}____//
+            `_/      )
+            (_(_/-(_/
+        '''
+        print(asciiart)
+
+    def __str__(self):
+        return self.name
