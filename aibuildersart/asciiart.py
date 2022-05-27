@@ -39,7 +39,6 @@ class UncleEngineer:
     def __str__(self):
         return self.name
 
-
 class Anitocorn:
     '''
     test = Anitocorn()
@@ -243,7 +242,6 @@ class Playboy:
 
     def art(self):
         asciiart = '''
-
                .                       
        |`.                     
        ;  `.                   
@@ -331,5 +329,31 @@ class Playboy:
 
     def __str__(self):
         return self.name
+    
+class ChampSaLaYa:
+    '''
+    test = ChampSaLaYa()
+    test.art()
+    '''
 
- 
+    def __init__(self):
+        self.name = 'ChampSaLaYa'
+
+    def art(self):
+        asciiart = '''
+                        ____
+                   .---'-    \ 
+      .-----------/           \ 
+     /           (         ^  |   __
+&   (             \        O  /  / .'
+'._/(              '-'  (.   (_.' /
+     \                    \     ./
+      |    |       |    |/ '._.'
+       )   @).____\|  @ |
+   .  /    /       (    | 
+  \|, '_:::\  . ..  '_:::\ ..\).
+        '''
+        print(asciiart)
+
+    def __str__(self):
+        return self.name
