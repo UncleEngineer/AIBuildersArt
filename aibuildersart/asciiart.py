@@ -333,13 +333,18 @@ class Playboy:
         return self.name
 
  
+
 class Tigerdiego:
+=======
+class Reader:
+
     '''
     test = UncleEngineer()
     test.art()
     '''
 
     def __init__(self):
+
         self.name = 'pawithclass'
 
     def art(self):
@@ -379,6 +384,23 @@ class Tigerdiego:
              \ ; |  :| : | : |  \|  :|  :| :|
               `-'`--;^-;-^-;-'    `-; `-;`-;'
         '''
+        print(asciiart)
+
+    def __str__(self):
+        return self.name
+=======
+        self.name = 'Uncle Engineer'
+
+    def art(self):
+        asciiart = '''
+.-. | | |
+|M|_|A|N|
+|A|a|.|.|<\\
+|T|r| | | \\
+|H|t|M|Z|  \\      "Bookshelf" by
+| |!| | |   \>     David S. Issel
+""""""""""""""""""
+                '''
         print(asciiart)
 
     def __str__(self):
